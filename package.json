@@ -1,11 +1,14 @@
 {
-  "name": "gute-react",
-  "version": "0.1.0",
-  "private": true,
+  "name": "spark-mock-server",
+  "version": "1.0.0",
+  "description": "Mock server for spark.",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "server": "json-server --watch db.json --port $PORT"
+    "start": "node index.js"
   },
-  "dependencies": {
-    "json-server": "^0.17.0"
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "lowdb": "^1.0.0"
   }
 }
